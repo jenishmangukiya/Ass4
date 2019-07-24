@@ -32,8 +32,7 @@
 			  <th scope="col">JD power link</th>
 			</tr>
 		  </thead>
-		  <tbody>
-			';
+		  <tbody>';
 			include('includes/db_con.php');
 		  
 			$query = 'select * from seller_info';
